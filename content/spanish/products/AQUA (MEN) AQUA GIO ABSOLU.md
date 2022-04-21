@@ -1,5 +1,5 @@
 ---
-title: "AQUA (MEN) AQUA GIO ABSOLU"
+title: "AQUA (MEN) AQUA GIO ABSOLU [6L]"
 date: 2019-10-17T11:22:16+06:00
 images: 
   - "images/perfume.png"
