@@ -1,5 +1,5 @@
 ---
-title: "UNO (UNISEX) CK ONE CALVIN KLEIN"
+title: "UNO (UNISEX) CK ONE CALVIN KLEIN [6L]"
 date: 2019-10-17T11:22:16+06:00
 images: 
   - "images/perfume.png"
