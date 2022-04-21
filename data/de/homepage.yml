@@ -1,0 +1,120 @@
+############################# banner ############################
+banner:
+  enable: true
+  title: "Lufterfrischer auf der Basis moderner Duftstoffe"
+  content: "Bestehend aus hochwertigen natürlichen Duftstoffen und 100% in Spanien hergestellt."
+  image: "images/perfume.png"
+  button:
+    enable: true
+    label: "Produkte anschauen"
+    link: "products/"
+
+############################# Feature ############################
+features:
+  enable: true
+  title: "Unsere Eigenschaften"
+  image: "images/box.png"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+    - title: "Marketing-Touch"
+      #icon: "tf-ion-ios-alarm-outline"
+      content: "Unterstreichen Sie Ihre Markenidentität und geben Sie Ihren Kunden einen herzlichen Empfang, einen Grund, wiederzukommen."
+
+      # feature item loop
+    - title: "Gedächtnis"
+      #icon: "tf-ion-ios-bell-outline"
+      content: "Wissenschaftliche Veröffentlichungen haben gezeigt, dass attraktive Düfte nicht nur angenehm sind, sondern auch das Langzeitgedächtnis beeinflussen."
+
+      # feature item loop
+    - title: "Hohe Parfümerie"
+      #icon: "tf-ion-ios-cart-outline"
+      content: "Hochparfümiert, für den persönlichen Gebrauch und die Umwelt geeignet."
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+    - title: "Bio"
+      #icon: "tf-ion-ios-alarm-outline"
+      content: "Sorgfältig hergestellte Parfümerie mit Melassealkohol und natürlichen aromatischen Essenzen."
+
+      # feature item loop
+    - title: "Elegantes Design"
+      #icon: "tf-ion-ios-bell-outline"
+      content: "Unabhängig davon, welche Art von Geschäft Sie haben oder wo Sie arbeiten, werden Sie ein Gefühl von Komfort für Ihre Kunden oder Kollegen schaffen."
+
+      # feature item loop
+    - title: "Emotionen"
+      #icon: "tf-ion-ios-cart-outline"
+      content: "Der Geruchssinn ist der mächtigste und subtilste der fünf Sinne, denn er ist in der Lage, unsere Gefühle intensiv zu beeinflussen."
+
+############################# promo ############################
+promo:
+  enable: true
+  image: "images/ojos.png"
+  title: "Entworfen von professionellen Parfümherstellern. Hochwertige Lufterfrischer seit 1970"
+  content:
+    "Kreative Lufterfrischer. Eine Palette von differenzierten Qualitätsprodukten. Mehr als 40 Jahre Erfahrung in der Herstellung unserer eigenen Lufterfrischer. Inspiration bei der Herstellung von Parfüms, deren gemeinsamer Nenner seit jeher die Verwendung ausschließlich natürlicher Alkohole (96º Melassealkohol) bei der Formulierung ist. Natürliche Essenzen der Hochparfümerie."
+
+############################# About Product #######################
+about_product:
+  enable: true
+  title: "Warum dieses Produkt wählen"
+  items:
+    # about product item loop
+    - image: "images/woman.png"
+      title: "Hauptkunden"
+      content:
+        "Unser Lufterfrischungsspray wird häufig von Bekleidungsgeschäften, Boutiquen, Büros, Läden und Luxusunternehmen verwendet. Hervorragende Qualität zur Identifizierung Ihrer Marke mit einem lang anhaltenden Raumduft."
+      button:
+        enable: false
+        label: "Check Features"
+        link: "#/"
+
+    # about product item loop
+    - image: "images/trianawoman.png"
+      title: "Verwendung"
+      content:
+        "Unser Lufterfrischer wird in einem 6-Liter-Behälter geliefert, um Ihr Zuhause oder Ihr Geschäft zu beduften. Außerdem ist es in der Umwelt etwa 8 Stunden lang haltbar. Es ist auch ein antiseptischer Lufterfrischer, der sich ideal zur Desinfektion von Kleidung, Geschäften, Büros und Unternehmen eignet."
+      button:
+        enable: false
+        label: "Check Features"
+        link: "#/"
+
+#################################### Products ########################
+products:
+  enable: false
+  title: "Checkout Our All Products"
+
+
+################################## Subscription ###################
+subscription:
+  enable: false
+  bg_image: "images/call-to-action.jpg"
+  title: "Get Product Updates"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  placeholder: "Your Email Address Here"
+
+############################## Testimonial ##########################
+testimonial:
+  enable: false
+  title: "Watch Review"
+  testimonial_item:
+    # testimonial item loop
+    - name: "Jonathon Andrew"
+      designation: "CEO, Themefisher"
+      image: "images/avater.png"
+      content: "ESPANO NINIO wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+    # testimonial item loop
+    - name: "Jonathon Andrew"
+      designation: "CEO, Themefisher"
+      image: "images/avater.png"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+    # testimonial item loop
+    - name: "Jonathon Andrew"
+      designation: "CEO, Themefisher"
+      image: "images/avater.png"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."

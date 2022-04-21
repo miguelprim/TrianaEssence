@@ -1,0 +1,120 @@
+############################# banner ############################
+banner:
+  enable: true
+  title: "Ambientadores basados en fragancias modernas"
+  content: "Compuesto por aromas naturales de alta calidad y 100% hecho en España."
+  image: "images/perfume.png"
+  button:
+    enable: true
+    label: "Ver todos los productos"
+    link: "products/"
+
+############################# Feature ############################
+features:
+  enable: true
+  title: "Nuestras características"
+  image: "images/box.png"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+    - title: "Toque de marketing"
+      #icon: "tf-ion-ios-alarm-outline"
+      content: "Refuerce la identidad de su marca y ofrezca a sus clientes una agradable bienvenida, una razón para querer volver."
+
+      # feature item loop
+    - title: "Memoria"
+      #icon: "tf-ion-ios-bell-outline"
+      content: "Las publicaciones científicas han demostrado que las fragancias atractivas no sólo son agradables, sino que interactúan con la memoria a largo plazo."
+
+      # feature item loop
+    - title: "Alta perfumería"
+      #icon: "tf-ion-ios-cart-outline"
+      content: "Alta perfumería, apropiada para uso personal y ambiental."
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+    - title: "Natural y Bio"
+      #icon: "tf-ion-ios-alarm-outline"
+      content: "Perfumería elaborada cuidadosamente con alcohol de melaza y esencias aromáticas naturales."
+
+      # feature item loop
+    - title: "Diseño elegante"
+      #icon: "tf-ion-ios-bell-outline"
+      content: "Independientemente del tipo de negocio que tenga o del lugar donde trabaje, causará una sensación de confort a sus clientes o compañeros de trabajo."
+
+      # feature item loop
+    - title: "Emociones"
+      #icon: "tf-ion-ios-cart-outline"
+      content: "El olfato es el más poderoso y sutil de los cinco sentidos, ya que es capaz de influir intensamente en nuestras emociones."
+
+############################# promo ############################
+promo:
+  enable: true
+  image: "images/ojos.png"
+  title: "Diseñado por fabricantes profesionales de perfumería. Ambientadores de alta calidad desde 1970"
+  content:
+    "Ambientadores creativos. Una gama de productos de calidad diferenciada. Más de 40 años de experiencia en la producción de ambientadores propios. Inspiración en la elaboración de las fragancias, cuyo factor común siempre ha sido la utilización en sus formulaciones de alcoholes de origen exclusivamente natural (alcohol de melaza de 96º). Esencias naturales de alta perfumería."
+
+############################# About Product #######################
+about_product:
+  enable: true
+  title: "Por qué elegir este producto"
+  items:
+    # about product item loop
+    - image: "images/woman.png"
+      title: "Principales clientes"
+      content:
+        "Nuestro ambientador en spray es muy utilizado por tiendas de ropa, boutiques, oficinas, comercios y negocios de lujo. Excelente calidad para identificar su marca con una fragancia ambiental de larga duración."
+      button:
+        enable: false
+        label: "Check Features"
+        link: "#/"
+
+    # about product item loop
+    - image: "images/trianawoman.png"
+      title: "Forma de uso"
+      content:
+        "Nuestro ambientador se presenta en un envase de 6 litros para perfumar su casa o negocio. Además tiene una persistencia en el ambiente de aproximadamente 8 horas. Siendo al mismo tiempo un ambientador antiséptico ideal para desinfectar la ropa, la tienda, la oficina, la empresa."
+      button:
+        enable: false
+        label: "Check Features"
+        link: "#/"
+
+#################################### Products ########################
+products:
+  enable: false
+  title: "Checkout Our All Products"
+
+
+################################## Subscription ###################
+subscription:
+  enable: false
+  bg_image: "images/call-to-action.jpg"
+  title: "Get Product Updates"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  placeholder: "Your Email Address Here"
+
+############################## Testimonial ##########################
+testimonial:
+  enable: false
+  title: "Watch Review"
+  testimonial_item:
+    # testimonial item loop
+    - name: "Jonathon Andrew"
+      designation: "CEO, Themefisher"
+      image: "images/avater.png"
+      content: "ESPANO NINIO wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+    # testimonial item loop
+    - name: "Jonathon Andrew"
+      designation: "CEO, Themefisher"
+      image: "images/avater.png"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+    # testimonial item loop
+    - name: "Jonathon Andrew"
+      designation: "CEO, Themefisher"
+      image: "images/avater.png"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."

@@ -1,0 +1,126 @@
+############################# banner ############################
+banner:
+  enable: true
+  title: "Air fresheners based on modern fragrances"
+  content: "Composed of high quality natural aromas and 100% made in Spain."
+  image: "images/perfume.png"
+  button:
+    enable: true
+    label: "Browse All Products"
+    link: "products/"
+
+############################# Feature ############################
+features:
+  enable: true
+  title: "Our Core Features"
+  image: "images/box.png"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+    - title: "Marketing Touch"
+      #icon: "tf-ion-ios-flag-outline"
+      content: "Reinforce your brand identity and offer your customers a pleasant welcome, a reason to want to return."
+
+      # feature item loop
+    - title: "Memory"
+      #icon: "tf-ion-heart-half-outline"
+      content: "Scientific publications have shown that attractive fragrances are not only pleasant but interact with long-term memory."
+
+      # feature item loop
+    - title: "High Perfumery"
+      #icon: "tf-ion-ios-diamond-outline"
+      content: "high perfumery, appropiate for personal use and ambient"
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+    - title: "Natural & Bio"
+      #icon: "tf-ion-ios-alarm-outline"
+      content: "Perfumery made carefully with molasses alcohol and natural aromatic essences."
+      
+      # feature item loop
+    - title: "Elegant Design"
+      #icon: "tf-ion-ios-bell-outline"
+      content: "Regardless the type of business you own or the place where you work, it will cause a comfortable feeling to your customers or colleagues at work"
+
+      # feature item loop
+    - title: "Emotions"
+      #icon: "tf-ion-ios-cart-outline"
+      content: "smell is the most powerful and subtle of the five senses, as it is capable of intensely influencing our emotions"
+
+
+
+############################# promo ############################
+promo:
+  enable: true
+  image: "images/ojos.png"
+  title: "Designed by professional perfumery manufacturers. High quality air fresheners since 1970"
+  content: "Creative fresheners. A range of quality products differentiated. More than 40 years of experience by producing own fresheners. Inspiration during the elaboration of the fragrances, 
+    whose common factor always has been the use in its formulations of alcohols of exclusively natural origin (96º molasses alcohol). 
+    Natural essences of high perfumery."
+
+############################# About Product #######################
+about_product:
+  enable: true
+  title: "Why Choose This Product"
+  items:
+    # about product item loop
+    - image: "images/woman.png"
+      title: "Main Customers"
+      content:
+        "Our air freshener spray is widely used by clothing shops, boutiques, offices, shops and luxury businesses. 
+        Excellent quality to identify your brand with a long-lasting ambient fragrance."
+      button:
+        enable: false
+        label: "Check Features"
+        link: "#/"
+
+    # about product item loop
+    - image: "images/trianawoman.png"
+      title: "Form of Use"
+      content:
+        "Our air freshener comes in one pack of 6 litre bottles to perfume your home or business. It also has a persistence
+        in the atmosphere of approx. 8 hours.
+        Being at the same time an antiseptic air freshener ideal for disinfecting clothes, shop, office, company."
+      button:
+        enable: false
+        label: "Check Features"
+        link: "#/"
+
+#################################### Products ########################
+products:
+  enable: false
+  title: "Checkout Our All Products"
+    
+
+################################## Subscription ###################
+subscription:
+  enable: false
+  bg_image: "images/call-to-action.jpg"
+  title: "Get Product Updates"
+  content: "If you like we will kindly inform you per email about new product lines and offers"
+  placeholder: "Your Email Address Here"
+
+############################## Testimonial ##########################
+testimonial:
+  enable: false
+  title: "Watch Review"
+  testimonial_item:
+    # testimonial item loop
+    - name: "Jonathon Andrew"
+      designation: "CEO, Themefisher"
+      image: "images/avater.png"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+    # testimonial item loop
+    - name: "Jonathon Andrew"
+      designation: "CEO, Themefisher"
+      image: "images/avater.png"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+    # testimonial item loop
+    - name: "Jonathon Andrew"
+      designation: "CEO, Themefisher"
+      image: "images/avater.png"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
