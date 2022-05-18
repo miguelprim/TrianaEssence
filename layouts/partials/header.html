@@ -17,6 +17,9 @@
           </li>
           {{ end }}
         </ul>
+
+        <button class="snipcart-customer-signin" href="{{ site.BaseURL | relLangURL }}">My account</button>
+        
         <!-- Language List -->
         {{ if .IsTranslated }}
         <select class="lang-list" id="select-language" onchange="location = this.value;">
@@ -40,9 +43,11 @@
         {{ end }}
       </div>
       {{ if site.Params.snipcart.enable}}
+      <div class="snipcart-summary">
+      </div>
   
-      <button class="snipcart-customer-signin">My account</button>
-         
+      
+      
       <button class="cart snipcart-checkout"><i class="tf-ion-android-cart"></i><span class="badge badge-primary snipcart-items-count"></span></button>
       {{ end }}
     </nav>
