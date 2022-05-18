@@ -7,6 +7,7 @@
         aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      
 
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
@@ -39,6 +40,9 @@
         {{ end }}
       </div>
       {{ if site.Params.snipcart.enable}}
+  
+      <button class="snipcart-customer-signin">My account</button>
+         
       <button class="cart snipcart-checkout"><i class="tf-ion-android-cart"></i><span class="badge badge-primary snipcart-items-count"></span></button>
       {{ end }}
     </nav>
