@@ -7,8 +7,9 @@
         aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       
-      
+       
       
 
       <div class="collapse navbar-collapse text-center" id="navigation">
@@ -45,20 +46,21 @@
           {{ end }}
           {{ end }}
           {{ end }}
+
+          
         </select>
 
         
         {{ end }}
+
+        {{ if site.Params.snipcart.enable}}
+        <button class="cart snipcart-checkout"><i class="tf-ion-android-cart"></i><span class="badge badge-primary snipcart-items-count"></span></button>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+         <button class="snipcart-customer-signin"><i class="tf-ion-android-person"></i></button>
+         {{ end }}         
       
 
-      {{ if site.Params.snipcart.enable}}
       
-      <button class="cart snipcart-checkout"><i class="tf-ion-android-cart"></i><span class="badge badge-primary snipcart-items-count"></span></button>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
-      <button class="snipcart-customer-signin"><i class="tf-ion-android-person"></i></button>
-      
-    
-      {{ end }}
       
     </nav>
   </div>
