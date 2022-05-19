@@ -8,6 +8,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       
+      
 
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
@@ -17,9 +18,12 @@
           </li>
           {{ end }}
         </ul>
-
-        <button class="snipcart-customer-signin" href="{{ site.BaseURL | relLangURL }}">My account</button>
         
+        
+        
+        
+        
+
         <!-- Language List -->
         {{ if .IsTranslated }}
         <select class="lang-list" id="select-language" onchange="location = this.value;">
@@ -42,13 +46,16 @@
         </select>
         {{ end }}
       </div>
+
       {{ if site.Params.snipcart.enable}}
-      <div class="snipcart-summary">
-      </div>
-  
+          
       
-      
+      <button class="snipcart-customer-signin"><i class="tf-ion-android-person"></i></button>
+      &nbsp;&nbsp;&nbsp;&nbsp;
       <button class="cart snipcart-checkout"><i class="tf-ion-android-cart"></i><span class="badge badge-primary snipcart-items-count"></span></button>
+      
+
+
       {{ end }}
     </nav>
   </div>
