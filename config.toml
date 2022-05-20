@@ -234,7 +234,8 @@ contentDir = "content/english"
 weight = 1
 # copyright
 copyright = "Designed By [TrianaEssence](https://trianaessence.com/)"
-
+Phone = "Phone"
+Comment = "Comment"
 
 ################################### Spanish language #####################################
 [Languages.es]
@@ -244,8 +245,8 @@ contentDir = "content/spanish"
 weight = 2
 # copyright
 copyright = "Diseñado por [TrianaEssence](https://trianaessence.com/)"
-
-
+Phone = "Telefono"
+Comment = "Comentario"
 
 ################################### German language #####################################
 [Languages.de]
@@ -255,3 +256,5 @@ contentDir = "content/deutsch"
 weight = 3
 # copyright
 copyright = "Design von [TrianaEssence](https://trianaessence.com/)"
+Phone = "Telefon"
+Comment = "Kommentar"
