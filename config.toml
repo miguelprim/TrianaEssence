@@ -71,8 +71,6 @@ url = "contact/"
 weight = 5
 
 
-
-
 #spanish
 
 [[Languages.es.menu.main]]
@@ -200,7 +198,7 @@ weight = 4
 ########################### Default parameters ##########################
 [params]
 logo = "images/logo.png"
-logo_width = "72px"
+logo_width = "300px"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
@@ -236,7 +234,7 @@ contentDir = "content/english"
 weight = 1
 # copyright
 copyright = "Designed By [TrianaEssence](https://trianaessence.com/)"
-Account = "My Account"
+
 
 ################################### Spanish language #####################################
 [Languages.es]
@@ -246,7 +244,7 @@ contentDir = "content/spanish"
 weight = 2
 # copyright
 copyright = "Diseñado por [TrianaEssence](https://trianaessence.com/)"
-Account = "Mi cuenta"
+
 
 
 ################################### German language #####################################
@@ -257,4 +255,3 @@ contentDir = "content/deutsch"
 weight = 3
 # copyright
 copyright = "Design von [TrianaEssence](https://trianaessence.com/)"
-Account = "Mein Profil"

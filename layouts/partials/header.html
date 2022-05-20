@@ -8,19 +8,6 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      {{ if site.Params.snipcart.enable}}
-        <button class="cart snipcart-checkout"><i class="tf-ion-android-cart"></i><span class="badge badge-primary snipcart-items-count"></span></button>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        {{ end }} 
-        
-        {{ if site.Params.snipcart.enable}}
-        <button class="snipcart-customer-signin"><i class="tf-ion-android-person"></i></button>
-        {{ end }} 
-        
-       
-      
-
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
           {{ range site.Menus.main }}
@@ -28,9 +15,7 @@
             <a class="nav-link" href="{{if .Pre}}{{site.BaseURL | relLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
           </li>
           {{ end }}
-          
         </ul>
-      
         <!-- Language List -->
         {{ if .IsTranslated }}
         <select class="lang-list" id="select-language" onchange="location = this.value;">
@@ -50,25 +35,17 @@
           {{ end }}
           {{ end }}
           {{ end }}
-
-          
         </select>
-
-        
         {{ end }}
       </div>
-
-             
-
-        
-      
+      {{ if site.Params.snipcart.enable}}
+      <button class="cart snipcart-checkout"><i class="tf-ion-android-cart"></i><span class="badge badge-primary snipcart-items-count"></span></button>
+      {{ end }}
     </nav>
- 
-
   </div>
-
 </header>
-
-
 <!-- /navigation -->
+
+
+
 
