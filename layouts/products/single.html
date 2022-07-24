@@ -15,8 +15,8 @@
       </div>
       <div class="col-lg-6 col-md-7 offset-lg-1">
         <h1 class="mb-4">{{ .Title }}</h1>
-        {{ with .Params.colors }}<p><strong>Models: </strong>{{ delimit . ", " | title}}</p>{{ end }}
-        {{ with .Params.sizes }}<p><strong>Sizes: </strong>{{ delimit . ", " | title}}</p>{{ end }}
+        {{ with .Params.colors }}<p><strong>Models: </strong><p>{{ delimit  . ", " | title}}</p></p>{{ end }}
+        {{ with .Params.sizes }}<p><strong>Sizes: </strong><p>{{ delimit . ", " | title}}</p></p>{{ end }}
         <p class="price py-4">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
         {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
         </p>
@@ -32,7 +32,12 @@
           {{ end }}
           {{ if .Params.sizes }}
           data-item-custom2-name="Choose Size"
-          data-item-custom2-options="{{range $index, $element:= .Params.sizes}}{{if eq $index 0}}{{. | title}}{{else}}|{{. | title}}{{end}}{{end}}"
+          
+          data-item-custom2-options="1L|2L[+29.00]|3L[+58.00]|4L[+87.00]|5L[+116.00]|Pack 6L[+126.00]"
+          ###data-item-custom2-options="{{range $index, $element:= .Params.sizes}}{{if eq $index 0}}{{. | title}}{{else}}|{{. | title}}{{end}}{{end}}"
+         
+          data-item-price="29.00"
+          
           {{end}}>{{i18n "add_to_cart"}}
         </button>
         {{ else }}
