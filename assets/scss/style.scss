@@ -236,11 +236,14 @@ a:active {
     font-size: 25px;
     margin: 0px;
     line-height: 1;
-    
-    
+    padding: 10px 0;
+    transition: .35s ease-out;
+         
   }
 }
 
+
+//hasta aqui
 .nav-link {
   font-size: 16px;
   font-weight: bold;
@@ -667,3 +670,46 @@ textarea.form-control {
   width: 100% !important;
   max-width: 100% !important;
 }
+
+
+
+
+// brand_carousel
+.brand-carousel {
+  border: 1px solid #E9E9E9;
+  border-left: 0;
+  border-right: 0;
+  padding: 20px 0;
+  margin-top: 50px;
+
+  .brand-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    transition: .2s ease;
+    filter: grayscale(1);
+    margin: 0 20px;
+    opacity: .5;
+
+    &:hover {
+      filter: grayscale(0);
+      opacity: 1;
+    }
+
+    img {
+      max-width: 50%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

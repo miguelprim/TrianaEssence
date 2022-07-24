@@ -217,7 +217,8 @@ preloader = "" # use .png , .svg or .gif format
 enable = true
 # snipcart public api key
 snipcart_api = "MzhiNzgxYTAtZTU5Mi00YTRiLWI4NmQtMTA5MGIxNjFmZjFlNjM3Njg3NzI1ODExMDAzNDg2"
-
+loadStrategy = "on-user-interaction"
+modalStyle = "side"
 
 # Subscription
 [params.subscription]
