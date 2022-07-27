@@ -84,7 +84,7 @@ about_product:
 
 #################################### Products ########################
 products:
-  enable: true
+  enable: false
   title: "Referencias"
 
 

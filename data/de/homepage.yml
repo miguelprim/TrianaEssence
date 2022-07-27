@@ -84,7 +84,7 @@ about_product:
 
 #################################### Products ########################
 products:
-  enable: true
+  enable: false
   title: "Referenzen"
 
 
@@ -98,7 +98,7 @@ subscription:
 
 ############################## Testimonial ##########################
 testimonial:
-  enable: true
+  enable: false
   title: "Watch Review"
   testimonial_item:
     # testimonial item loop
