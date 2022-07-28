@@ -6,8 +6,8 @@ banner:
   image: "images/perfume.png"
   button:
     enable: true
-    label: "Produkte anschauen"
-    link: "products/"
+    label: "Produkt anschauen"
+    link: "/products/lufterfrischer/"
 
 ############################# Feature ############################
 features:

@@ -6,8 +6,8 @@ banner:
   image: "images/perfume.png"
   button:
     enable: true
-    label: "Browse All Products"
-    link: "products/"
+    label: "See the product"
+    link: "products/airfreshener/"
 
 ############################# Feature ############################
 features:

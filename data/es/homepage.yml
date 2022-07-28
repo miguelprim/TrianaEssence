@@ -6,8 +6,8 @@ banner:
   image: "images/perfume.png"
   button:
     enable: true
-    label: "Ver todos los productos"
-    link: "products/"
+    label: "Ver el producto"
+    link: "/products/perfume/"
 
 ############################# Feature ############################
 features:
