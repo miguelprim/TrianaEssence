@@ -10,7 +10,7 @@ id: 1
 description : "this is meta description"
 
 # product Price
-price: "29.90"
+price: "29.00"
 discount_price: ""
 
 
