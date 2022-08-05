@@ -10,7 +10,7 @@ id: 1
 description : "this is meta description"
 
 # product Price
-price: "29.00"
+price: "29.90"
 discount_price: ""
 
 
@@ -29,7 +29,6 @@ colors : [
 "HER (WOMAN) NARCISO RODRIGUEZ",
 "KILATE (MEN) 1 $ PACO RABANEE",
 "MAN (MEN) LE MALE JEAN PAUL GAULTIER",
-"RAF (WOMAN) RALPH RALPH LAURENT",
 "TAR (INFANTIL) TARTINE & CHOCOLAT GIVENGY",
 "UNO (UNISEX) CK ONE CALVIN KLEIN"]
 sizes : ["1L","2L","3L","4L","5L","Pack 6L"] 
