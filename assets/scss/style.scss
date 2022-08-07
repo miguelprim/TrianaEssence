@@ -170,7 +170,7 @@ a:active {
 
 .heading {
   text-align: center;
-  color: #777777;
+  color: #ffffff;
   padding-bottom: 70px;
   margin-top: -50px;
 
@@ -245,13 +245,16 @@ a:active {
 
 //hasta aqui
 .nav-link {
+  color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: bold;
   padding: 0px 20px !important;
+  
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: rgb(255, 255, 255);
+  
   
   
 }
