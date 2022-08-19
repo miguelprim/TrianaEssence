@@ -1,0 +1,76 @@
+---
+title: "Glosario"
+description : "this is a meta description"
+draft: false
+---
+
+
+## Conextos en los que nuestro producto trabaja:
+## agradable
+## agua
+## alcohol
+## almizcle
+## anuncio
+## aromática
+## atracción
+## bálsamo
+## caro
+## cautivar
+## clavel
+## colonia
+## composición
+## cosmético
+## cristal
+## cuerpo
+## cítrico
+## clasificación
+## comercio
+## creación
+## cuello
+## destilación
+## difusión
+## disolvente
+## efluvio
+## elaboración
+## esencia
+## evaporación
+## extracto
+## flor
+## fragancia
+## frasco
+## fresco
+## gama
+## industria
+## ingrediente
+## innovación
+## intenso
+## jazmín
+## lavanda
+## líquido
+## maceración
+## marca
+## muñeca
+## olor
+## oriental
+## penetrante
+## percepción
+## perdurar
+## perfumería
+## personalidad
+## piel
+## precio
+## proporción
+## pulverizador
+## recuerdo
+## regalo
+## rosa
+## sándalo
+## seducción
+## sentido
+## sensación
+## spray
+## sustancia
+## tendencia
+## tocador
+## tomillo
+## vainilla
