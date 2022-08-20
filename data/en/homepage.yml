@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "See the product"
-    link: "products/airfreshener/"
+    link: "products/"
 
 ############################# Feature ############################
 features:
