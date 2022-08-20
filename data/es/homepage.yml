@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Ver el producto"
-    link: "/products/perfume/"
+    link: "/products/"
 
 ############################# Feature ############################
 features:
