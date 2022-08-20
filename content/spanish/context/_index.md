@@ -5,10 +5,8 @@ draft: false
 ---
 
 
-## Conextos en los que nuestro producto trabaja:
+#  
 ## agradable
-si ademas que si
-
 ## agua
 ## alcohol
 ## almizcle
