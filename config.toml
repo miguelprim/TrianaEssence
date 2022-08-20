@@ -159,9 +159,9 @@ weight = 4
 
 
 [[Languages.es.menu.footer]]
-name = "Contexto"
-url = "context/"
-weight = 1
+#name = "Contexto"
+#url = "context/"
+#weight = 1
 
 [[Languages.es.menu.footer]]
 name = "Contacto"
@@ -266,19 +266,3 @@ copyright = "Design von [TrianaEssence](https://trianaessence.com/)"
 Phone = "Telefon"
 Comment = "Kommentar"
 
-
-##### GISCUS
-
-[params.giscus]
-repo="miguelprim/trianaessence"
-repo-id="R_kgDOHNrXXg"
-category-id="[ID CATEGORÍA]"
-mapping="pathname"
-strict="0"
-reactions-enabled="1"
-emit-metadata="1"
-input-position="top"
-theme="light"
-lang="es"
-loading="lazy"
-crossorigin="anonymous2"

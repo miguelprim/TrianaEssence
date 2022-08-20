@@ -29,11 +29,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     </item>
     
     <item>
-      <title>Perfume</title>
-      <link>https://trianaessence.com/es/products/perfume/</link>
+      <title>Perfume (Botella 1 Litro)</title>
+      <link>https://trianaessence.com/es/products/perfume-1l/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
       
-      <guid>https://trianaessence.com/es/products/perfume/</guid>
+      <guid>https://trianaessence.com/es/products/perfume-1l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perfume (Caja 6 Litros)</title>
+      <link>https://trianaessence.com/es/products/perfume-6l/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      
+      <guid>https://trianaessence.com/es/products/perfume-6l/</guid>
       <description></description>
     </item>
     

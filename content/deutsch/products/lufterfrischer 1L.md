@@ -1,5 +1,5 @@
 ---
-title: "Air Freshener"
+title: "Lufterfrischer (1 Liter Flasche)"
 date: 2019-10-17T11:22:16+06:00
 images: 
   - "images/perfume.png"
@@ -31,7 +31,7 @@ colors : [
 "MAN (MEN) LE MALE JEAN PAUL GAULTIER",
 "TAR (INFANTIL) TARTINE & CHOCOLAT GIVENGY",
 "UNO (UNISEX) CK ONE CALVIN KLEIN"]
-sizes : ["1L","2L","3L","4L","5L","Pack 6L"] 
+#sizes : ["1L","2L","3L","4L","5L","Pack 6L"] 
 
 # button link if you don't want to use snipcart. empty link will not show button
 button_link: "#"
