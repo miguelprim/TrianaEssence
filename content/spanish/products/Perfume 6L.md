@@ -4,7 +4,7 @@ date: 2019-10-17T11:22:16+06:00
 images: 
   - "images/box.png"
   - "images/perfume.png"
-id: 1
+id: 2
 
 # meta description
 description : "this is meta description"
